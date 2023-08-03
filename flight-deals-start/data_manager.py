@@ -23,4 +23,4 @@ class DataManager:
             }
             response = requests.put(url=f"{SHEETY_ENDPOINT}/{city['id']}", json=new_data)
             response.raise_for_status()
-            print(response.text)
+            # print(response.text)
