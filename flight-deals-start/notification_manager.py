@@ -12,9 +12,9 @@ class NotificationManager:
 
         message = client.messages.create(
             body=f"Low price alert! Only €{price} to flight from"
-                 f"{departure_city_name}-{departure_airport_iata}"
-                 f" to {arrival_city_name}-{arrival_airport_iata},"
-                 f"from {outbound_data} to {inbound_date}",
+                 f" {departure_city_name}-{departure_airport_iata}"
+                 f" to {arrival_city_name}-{arrival_airport_iata}, "
+                 f"from {outbound_data} to {inbound_date}.",
             from_='+19382014061',
             to='+358509184234'
         )
