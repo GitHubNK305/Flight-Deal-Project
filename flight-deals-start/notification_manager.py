@@ -1,11 +1,11 @@
 from twilio.rest import Client
 import smtplib
 
-ACCOUNT_SID = "XX"
-AUTH_TOKEN = "XX"
+ACCOUNT_SID = "Your twilio sid"
+AUTH_TOKEN = "You twilio token"
 
 MY_EMAIL = "jintao.helsinki@gmail.com"
-PASSWORD = "XX"
+PASSWORD = "Your gmail app password"
 
 
 class NotificationManager:
